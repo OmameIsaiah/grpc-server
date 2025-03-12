@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: author-grpc-server
+server:
+  port: 5061
