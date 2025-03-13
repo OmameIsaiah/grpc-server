@@ -3,3 +3,12 @@ spring:
     name: author-grpc-server
 server:
   port: 5061
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
